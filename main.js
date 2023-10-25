@@ -168,8 +168,8 @@ function clearTmp() {
 async function connectionUpdate(update) {
   const { receivedPendingNotifications, connection, lastDisconnect, isOnline, isNewLogin } = update
   if (isNewLogin) conn.isInit = true
-  if (connection == 'connecting') console.log(chalk.redBright('⚡ Activating Bot, Please wait a moment...'))
-  if (connection == 'open') console.log(chalk.green('✅ Connected'))
+  if (connection == 'connecting') console.log(chalk.redBright('⚡ Activating DARK MD, Please wait a moment...'))
+  if (connection == 'open') console.log(chalk.green('✅ DARK MD Connected'))
   if (isOnline == true) console.log(chalk.green('Active Status'))
   if (isOnline == false) console.log(chalk.red('Dead Status'))
   if (receivedPendingNotifications) console.log(chalk.yellow('Waiting for New Messages'))
