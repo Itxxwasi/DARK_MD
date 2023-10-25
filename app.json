@@ -1,11 +1,11 @@
 {
-  "name": "wa bot md by zoro md",
-  "description": "Whatsapp bot. recode by lua ser ofc",
+  "name": "wa bot md by DARK md",
+  "description": "Whatsapp bot. recode by WASI ofc",
   "keywords": [
     "whatsapp bot",
     "nodejs"
   ],
-  "repository": "https://github.com/xxirfanx/zoromd",
+  "repository": "https://github.com/Itxxwasi/DARK_MD",
     "buildpacks": [
     {
       "url": "heroku/nodejs"
