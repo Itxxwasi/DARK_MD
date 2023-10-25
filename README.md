@@ -1,4 +1,4 @@
-## zoro Bot Powered By lua
+## 𝐃𝐀𝐑𝐊_𝐌𝐃 𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘 𝐃𝐀𝐑𝐊 𝐂𝐑𝐄𝐀𝐓𝐎𝐑 𝐖𝐀𝐒𝐈
 
 - If you facing some issue, just open Issues on github page
 
@@ -16,7 +16,7 @@
 ---------
 # Installation
 
-### Deploy to heroku
+### 𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 𝐇𝐄𝐑𝐎𝐊𝐔 
 
  Fork the repo
  
