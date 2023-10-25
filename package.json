@@ -1,5 +1,5 @@
 {
-    "name": "zoromd",
+    "name": "DARK MD",
     "version": "4.8.0",
     "description": "Simple WhatsApp Bot MD With ESM Module",
     "main": "index.js",
@@ -17,11 +17,11 @@
     "keywords": [
         "termux-whatsapp-bot",
         "zoromd",
-        "zoro-md",
+        "darkmd-md",
         "whatsapp-bot",
         "whatsapp",
-        "wa-md",
-        "js-whatsapp",
+        "wasimd-md",
+        "devil md-whatsapp",
         "whatsapp-js",
         "lua-Bot",
         "whatsapp",
@@ -31,16 +31,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/xxirfanx/zoromd",
+    "homepage": "https://github.com/Itxxwasi/DARK_MD",
     "author": {
-        "name": "LUA SER OFC"
+        "name": "WASI_MD"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/xxirfanx/zoromd.git"
+        "url": "git+https://github.com/Itxxwasi/DARK_MD"
     },
     "bugs": {
-        "url": "https://github.com/xxirfanx/zoromd/issues"
+        "url": "https://github.com/Itxxwasi/DARK_MD/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
