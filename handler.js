@@ -389,7 +389,7 @@ export async function participantsUpdate({
     if (global.db.data == null) await loadDatabase();
     const chat = global.db.data.chats[id] || {};
     const emoji = {
-        promote: '👤👑',
+        promote: '👤 DARK MD 👑',
         demote: '👤🙅‍♂️'
     };
 
@@ -406,7 +406,7 @@ export async function participantsUpdate({
 							pp = await this.profilePictureUrl(user, 'image')
 							ppgc = await this.profilePictureUrl(id, 'image') 
 						} catch (e) {} finally {
-							text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc ? String.fromCharCode(8206).repeat(4001) + groupMetadata.desc : '') :
+							text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc ? String.fromCharCode(8206).repeat(4001) + groupMetadata.desc : 'https://chat.whatsapp.com/I1FymAZqrigItemS57hB88') :
 								(chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace(/@user/g, '@' + user.split`@`[0])
 							let wel = pp
 							let lea = pp
@@ -415,10 +415,10 @@ text: text,
 contextInfo: {
 mentionedJid: [user],
 externalAdReply: {
-title: "© Zoro MD",
+title: "© DARK MD",
 body: "Group Notifications",
 thumbnailUrl: pp,
-sourceUrl: 'https://whatsapp.com/channel/0029Va4gIsn3WHTcFh97VU3s',
+sourceUrl: 'https://chat.whatsapp.com/I1FymAZqrigItemS57hB88',
 mediaType: 1,
 renderLargerThumbnail: true
 }}})
@@ -519,21 +519,21 @@ export async function presenceUpdate(presenceUpdate) {
             mentions: this.parseMention(caption)
         });
         user.afk = -1;
-        user.afkReason = "";
+        user.afkReason = "WASI BOSS IS BUSY";
     }
 }
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: 'This command can only be used by _*OWWNER!!*_',
-        owner: 'This command can only be used by _*Owner Bot*_!',
+        rowner: 'This command can only be used by _*DARK MD OWWNER!!*_',
+        owner: 'This command can only be used by _*DARK MD Owner Bot*_!',
         mods: 'This command can only be used by _*Moderator*_ !',
         premium: 'This command is only for member _*Premium*_ !',
-        group: 'This command can only be used in groups!',
+        group: 'This command can only be used in DARK MD groups!',
         private: 'This command can only be used in Private Chat!',
         admin: 'This command is only for *Admin* group!',
         botAdmin: 'Make the bot an *Admin* to use this command!',
-        unreg: 'Please register to use this feature by typing:\n\n*#daftar name.age*\n\nExample: *#daftar luaa.17*',
+        unreg: 'Please register to use this feature by typing:\n\n*#daftar name.age*\n\nExample: *#daftar WASI.17*',
         restrict: 'This feature is in *disable*!'
     }[type]
     if (msg) return m.reply(msg)
